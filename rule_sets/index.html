@@ -19,8 +19,8 @@
         <link rel="next" href="../special_conditions/">
       
       
-      <link rel="icon" href="https://static.maif.fr/resources/img/logo-maif.svg">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.14">
+      <link rel="icon" href="../assets/img/arta-git.svg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.10ba22f1.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -67,7 +67,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="light-green">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="red">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -92,7 +92,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Arta" class="md-header__button md-logo" aria-label="Arta" data-md-component="logo">
       
-  <img src="https://static.maif.fr/resources/img/logo-maif.svg" alt="logo">
+  <img src="../assets/img/arta-fond-clair.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -195,7 +195,7 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../home/" class="md-tabs__link">
         
   
     
@@ -214,7 +214,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../in_a_nutshell/" class="md-tabs__link">
+        <a href="../a_simple_example/" class="md-tabs__link">
           
   
   Get Started
@@ -287,7 +287,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Arta" class="md-nav__button md-logo" aria-label="Arta" data-md-component="logo">
       
-  <img src="https://static.maif.fr/resources/img/logo-maif.svg" alt="logo">
+  <img src="../assets/img/arta-fond-clair.svg" alt="logo">
 
     </a>
     Arta
@@ -314,7 +314,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../home/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -372,11 +372,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../in_a_nutshell/" class="md-nav__link">
+      <a href="../a_simple_example/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    In a nutshell
+    A Simple Example
   </span>
   
 
@@ -803,7 +803,7 @@
 <p>The good news is that different <strong>rule sets</strong> can be used seamlessly with the same <em>rules engine</em> instance <img alt="👍" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f44d.svg" title=":+1:" /></p>
 <p>Let's take the following example:</p>
 <blockquote>
-<p>Based on the <a href="../how_to/#hello-world">Hello World</a> example, imagine that you need to add some rules about something totally different than the superhero school. Let's say rules for a dinosaur school.</p>
+<p>Based on that <a href="../how_to/#standard-condition">example</a>, imagine that you need to add some rules about something totally different than the superhero school. Let's say rules for a dinosaur school.</p>
 </blockquote>
 <h2 id="configuration">Configuration</h2>
 <p>Update your configuration by adding a new <strong>rule set</strong>: <code>dinosaur_school_set</code></p>
@@ -961,10 +961,10 @@
 </span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26"></a>
 </span><span id="__span-1-27"><a id="__codelineno-1-27" name="__codelineno-1-27"></a><span class="n">eng</span> <span class="o">=</span> <span class="n">RulesEngine</span><span class="p">(</span><span class="n">config_path</span><span class="o">=</span><span class="s2">&quot;path/to/conf/dir&quot;</span><span class="p">)</span>
 </span><span id="__span-1-28"><a id="__codelineno-1-28" name="__codelineno-1-28"></a>
-</span><span id="__span-1-29"><a id="__codelineno-1-29" name="__codelineno-1-29"></a><span class="n">superhero_result</span> <span class="o">=</span> <span class="n">eng</span><span class="o">.</span><span class="n">apply_rules</span><span class="p">(</span><span class="n">input_data_1</span><span class="p">,</span> <span class="n">rule_set</span><span class="o">=</span><span class="s2">&quot;superhero_school_set&quot;</span><span class="p">)</span>  <span class="c1"># (1)</span>
-</span><span id="__span-1-30"><a id="__codelineno-1-30" name="__codelineno-1-30"></a>
-</span><span id="__span-1-31"><a id="__codelineno-1-31" name="__codelineno-1-31"></a><span class="n">dinosaur_result</span> <span class="o">=</span> <span class="n">eng</span><span class="o">.</span><span class="n">apply_rules</span><span class="p">(</span><span class="n">input_data_2</span><span class="p">,</span> <span class="n">rule_set</span><span class="o">=</span><span class="s2">&quot;dinosaur_school_set&quot;</span><span class="p">)</span>
-</span></code></pre></div></td></tr></table></div>
+</span><span id="__span-1-29"><a id="__codelineno-1-29" name="__codelineno-1-29"></a><span class="hll"><span class="n">superhero_result</span> <span class="o">=</span> <span class="n">eng</span><span class="o">.</span><span class="n">apply_rules</span><span class="p">(</span><span class="n">input_data_1</span><span class="p">,</span> <span class="n">rule_set</span><span class="o">=</span><span class="s2">&quot;superhero_school_set&quot;</span><span class="p">)</span>  <span class="c1"># (1)</span>
+</span></span><span id="__span-1-30"><a id="__codelineno-1-30" name="__codelineno-1-30"></a>
+</span><span id="__span-1-31"><a id="__codelineno-1-31" name="__codelineno-1-31"></a><span class="hll"><span class="n">dinosaur_result</span> <span class="o">=</span> <span class="n">eng</span><span class="o">.</span><span class="n">apply_rules</span><span class="p">(</span><span class="n">input_data_2</span><span class="p">,</span> <span class="n">rule_set</span><span class="o">=</span><span class="s2">&quot;dinosaur_school_set&quot;</span><span class="p">)</span>
+</span></span></code></pre></div></td></tr></table></div>
 <ol>
 <li>Select the <strong>rule set</strong> that you want to use when applying rules on your input data.</li>
 </ol>
@@ -1029,7 +1029,7 @@
     <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link", "content.code.annotate", "content.code.copy", "content.code.select", "announce.dismiss", "navigation.tabs", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.bd41221c.min.js"></script>
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
       
     
   </body>
