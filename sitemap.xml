@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://maif.github.io/arta/a_simple_example/</loc>
-         <lastmod>2024-06-10</lastmod>
+         <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maif.github.io/arta/api_reference/</loc>
-         <lastmod>2024-06-10</lastmod>
+         <lastmod>2024-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://maif.github.io/arta/custom_conditions/</loc>
+         <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maif.github.io/arta/glossary/</loc>
-         <lastmod>2024-06-10</lastmod>
+         <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maif.github.io/arta/home/</loc>
-         <lastmod>2024-06-10</lastmod>
+         <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maif.github.io/arta/how_to/</loc>
-         <lastmod>2024-06-10</lastmod>
+         <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maif.github.io/arta/installation/</loc>
-         <lastmod>2024-06-10</lastmod>
+         <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maif.github.io/arta/parameters/</loc>
-         <lastmod>2024-06-10</lastmod>
+         <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maif.github.io/arta/rule_sets/</loc>
-         <lastmod>2024-06-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://maif.github.io/arta/special_conditions/</loc>
-         <lastmod>2024-06-10</lastmod>
+         <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maif.github.io/arta/why/</loc>
-         <lastmod>2024-06-10</lastmod>
+         <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://maif.github.io/arta/assets/js/tarteaucitron/</loc>
-         <lastmod>2024-06-10</lastmod>
+         <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
